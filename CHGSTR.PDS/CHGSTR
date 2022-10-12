@@ -37,6 +37,6 @@
     if p = 0 then return haystack
     l = length(needle)
     lh = left(haystack,p-1)
-    lr = substr(haystack,p+l+1)
+    lr = substr(haystack,p+l)
     haystack = lh''new_needle''lr
   end
