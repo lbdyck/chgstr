@@ -32,9 +32,11 @@
 
   if pos(needle,haystack) = 0 then return 8
 
-  p = pos(needle,haystack)
-  l = length(needle)
-  lh = left(haystack,l-1)
-  lr = substr(haystack,l+1)
-  new_haystack = lh''new_needle''lr
-  return new_haystack
+  do forever
+    p = pos(needle,haystack)
+    if p = 0 then return haystack
+    l = length(needle)
+    lh = left(haystack,p-1)
+    lr = substr(haystack,p+l+1)
+    haystack = lh''new_needle''lr
+  end
