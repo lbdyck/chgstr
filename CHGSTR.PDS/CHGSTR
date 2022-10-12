@@ -1,9 +1,9 @@
   /* --------------------  rexx procedure  -------------------- *
   | Name:      CHGSTR                                          |
   |                                                            |
-  | Function:  Replace a needle in a haystack                  |
+  | Function:  Replace a needle in a haystack in all locations |
   |                                                            |
-  |            Based upon the CHANGESTR function on ANSI REXX  |
+  |            Based upon the CHANGESTR function in ANSI REXX  |
   |                                                            |
   | Syntax:    x = chgstr(needle,haystack,new_needle)          |
   |                                                            |
