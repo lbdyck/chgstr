@@ -12,7 +12,7 @@ the SYSPROC allocation.
 
 The syntax is: `new_string = chgstr(needle,haystack,new_needle)`
 
-Examples:
+Example:
 
 `new_string = chgstr('def','abcdefghi','zzz')`
 
